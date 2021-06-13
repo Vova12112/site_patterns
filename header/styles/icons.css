@@ -1,0 +1,45 @@
+.icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+    background: url('../img/icons-30.svg') no-repeat;
+}
+
+.icon.facebook{
+    background-position-x: -1px;
+}
+.icon.instagram{
+    background-position-x: -33px;
+}
+.icon.telegram{
+    background-position-x: -65px;
+}
+.icon.youtube{
+    background-position-x: -97px;
+}
+
+.icon.show-menu{
+    background-position-x: -129px;
+}
+
+.icon.facebook-blue{
+    background-position-x: -161px;
+}
+.icon.instagram-blue{
+    background-position-x: -193px;
+}
+.icon.telegram-blue{
+    background-position-x: -225px;
+}
+.icon.youtube-blue{
+    background-position-x: -257px;
+}
+.icon.close{
+    background-position-x: -289px;
+}
+
+.icon.link:hover{
+    background-position-y: -32px;
+    cursor: pointer;
+}
